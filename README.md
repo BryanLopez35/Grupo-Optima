@@ -20,5 +20,3 @@ Este proyecto en PHP y MySQL se encarga de realizar las siguientes funciones:
 2. Importa el archivo de la base de datos (`optima.sql`) en tu servidor MySQL.
 3. Configura la conexión a la base de datos en el archivo `conexion/conexion.php`.
 4. Abre el proyecto en tu navegador.
-
-**Nota:** Asegúrate de cumplir con los requisitos y seguir los pasos de instalación para un funcionamiento correcto.
