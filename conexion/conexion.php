@@ -2,15 +2,15 @@
 class DBManager
 {
     private $host = '192.168.1.69';
-    private $usuario = 'root';
-    private $contrasena = 'pr3cis!onpp';
-    private $base_datos = 'optima';
+    private $user = 'root';
+    private $password = 'pr3cis!onpp';
+    private $db = 'optima';
     private $conexion;
 
     // Constructor para establecer la conexion
     public function __construct()
     {
-        $this->conexion = new mysqli($this->host, $this->usuario, $this->contrasena, $this->base_datos);
+        $this->conexion = new mysqli($this->host, $this->user, $this->password, $this->db);
 
         // Verificar la conexión
         if ($this->conexion->connect_error) {
